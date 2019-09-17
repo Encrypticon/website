@@ -1,0 +1,270 @@
+body {
+    width: 100%;
+    background: url("../image/official-website.jpg") no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    /* background: #000; */
+}
+
+/* 最外面的那层div */
+
+#encrypticonIndex {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* 公司名字 */
+
+.reCompanyName {
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    padding-top: 300px;
+    font-weight: 20;
+    font-family: big caslon;
+}
+
+/* 公司介绍 */
+
+.companyIntroduce {
+    padding-top: 50px;
+}
+
+.companyIntroduce p {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    font-family: big caslon;
+}
+
+/* Registered Office  */
+
+.new_font {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.new_font p {
+    font-family: big caslon;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    display: inline-block;
+}
+
+/* Copyright */
+
+.Copyright {
+    width: 100%;
+    padding-top: 240px;
+    padding-bottom: 50px;
+}
+
+.Copyright p {
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    font-family: times new roman;
+}
+
+.particles {
+    border: none;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+/* 适应 */
+
+@media(max-width:800px) {
+    body {
+        background: #000;
+        /*background-position: 50% 50%;*/
+    }
+}
+
+@media(max-width:450px) {
+    body {
+        background-size: 100%;
+    }
+}
+
+@media(max-width: 620px) {
+    .reCompanyName {
+        padding-top: 200px;
+        font-size: 50px;
+    }
+
+    .companyIntroduce p {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 480px) {
+    .reCompanyName {
+        padding-top: 200px;
+        font-size: 35px;
+    }
+
+    .companyIntroduce p {
+        font-size: 16px;
+    }
+
+    .new_font {
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 382px) {
+    .nav .topLi {
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 342px) {
+    .nav .topLi {
+        margin-right: 30px;
+    }
+
+    .reCompanyName {
+        font-size: 25px;
+    }
+
+    .new_font {
+        padding-top: 120px;
+    }
+}
+
+@media (width: 360px) and (height: 640px) {
+    .new_font {
+        padding-top: 50px;
+    }
+
+    .new_font p {
+        color: #fff;
+    }
+}
+
+@media (width: 412px) and (height: 660px) {
+    .new_font {
+        padding-top: 50px;
+    }
+}
+
+@media (width: 360px) and (height: 567px) {
+    .reCompanyName {
+        padding-top: 120px;
+    }
+
+    .new_font {
+        padding-top: 50px;
+    }
+
+    .new_font p {
+        color: #fff;
+    }
+}
+
+@media (width: 384px) and (height: 640px) {
+    .new_font {
+        padding-top: 50px;
+    }
+
+    .new_font p {
+        color: #fff;
+    }
+}
+
+@media (width: 320px) and (height: 533px) {
+    .reCompanyName {
+        padding-top: 100px;
+    }
+
+    .new_font {
+        padding-top: 50px;
+    }
+}
+
+@media (width: 320px) and (height: 480px) {
+    .reCompanyName {
+        padding-top: 100px;
+    }
+
+    .new_font {
+        padding-top: 30px;
+    }
+
+    .new_font p {
+        font-size: 12px;
+    }
+}
+
+@media (width: 320px) and (height: 568px) {
+    .reCompanyName {
+        padding-top: 100px;
+    }
+
+    .new_font {
+        padding-top: 60px;
+    }
+
+    .new_font p {
+        font-size: 12px;
+    }
+}
+
+@media (width: 375px) and (height: 667px) {
+    .reCompanyName {
+        padding-top: 150px;
+    }
+
+    .new_font {
+        padding-top: 60px;
+    }
+}
+
+@media (width: 600px) and (height: 1024px) {
+    .new_font {
+        padding-top: 200px;
+    }
+
+    .new_font p {
+        font-size: 20px;
+    }
+}
+
+@media (width: 1024px) and (height: 1366px) {
+    .new_font {
+        padding-top: 250px;
+    }
+
+    .new_font p {
+        font-size: 20px;
+    }
+}
+
+@media (width: 600px) and (height: 960px) {
+    .new_font {
+        padding-top: 200px;
+    }
+
+    .new_font p {
+        font-size: 20px;
+    }
+}
+
+@media (width: 800px) and (height: 1280px) {
+    .new_font {
+        padding-top: 200px;
+    }
+
+    .new_font p {
+        font-size: 20px;
+    }
+}

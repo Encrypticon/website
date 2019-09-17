@@ -1,0 +1,148 @@
+﻿body {
+    width: 100%;
+    background: #000;
+    padding-bottom: 50px;
+}
+
+/* 最外面的大框 */
+
+#jobOpening {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* 下面大段的文字信息 */
+
+.Main {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.Main h1 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 0 20px 0;
+}
+
+.Main a{
+	margin-left:10px;
+	color: #00CBFF;
+}
+.Main ul h2{
+color:white;
+}
+.Main ul{
+	list-style: none;
+	margin-left:100px;
+}
+.Main li{
+    height:auto!important;
+	width:500px;
+	height: 50px;
+	line-height:50px;
+}
+.Main img{
+    height:auto!important;
+	width:30px;
+	height: 20px;
+}
+
+.textMessage {
+    width: 65%;
+    /* background: #FFF1DE; */
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.textMessage p {
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 10px;
+    font-family: big caslon;
+}
+
+/* Copyright */
+
+.Copyright p {
+    text-align: center;
+    color: #fff;
+}
+
+/* 适应 */
+
+@media(max-width: 1200px) {
+    .textMessage p {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .textMessage {
+        width: 80%;
+    }
+}
+
+@media(max-width: 800px) {
+    .textMessage p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 620px) {
+    .Main h1 {
+        font-size: 18px;
+    }
+	.Main ul{
+		margin-left:20px;
+	}
+	.Main li{
+		font-size:12px;
+		width:250px;
+	}
+}
+
+@media (max-width: 532px) {
+    .Main h1 {
+        font-size: 16px;
+    }
+}
+
+
+@media(max-width: 500px) {
+    .textMessage {
+        width: 95%;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 420px) {
+    .Main h1 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    .textMessage p {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 382px) {
+    .nav .topLi {
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 342px) {
+    .nav .topLi {
+        margin-right: 30px;
+    }
+}
