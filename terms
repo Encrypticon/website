@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Terms</title>
+<script src="/cdn-cgi/apps/head/cTC8U1ILifcorHJI580iop45lco.js"></script><link rel="stylesheet" href="../css/iconfont.css">
+<link rel="stylesheet" href="../css/same.css">
+<link rel="stylesheet" href="../css/job-opening.css">
+</head>
+<body>
+<div id="jobOpening">
+<div class="nav" id="nav">
+<ul class="clearfix">
+<li class="topLi">
+<span class="companyName">
+ENCRYPTICON
+</span>
+</li>
+<li class="homeLi">
+<i class="iconfont">&#xe624;</i>
+<a href="index.html" class="LiOne">HOME</a>
+</li>
+<li class="LiTwo">
+</li>
+<li class="LiThree">
+<i class="iconfont">&#xe60a;</i>
+<a href="terms.html" class="aIsCheck">TERMS</a>
+</li>
+<li class="lastLi">
+<a href="javascript:;" class="showNav">
+<i class="iconfont">
+&#xe653;
+</i>
+</a>
+</li>
+</ul>
+</div>
+<div class="Main">
+<h1>TERMS</h1>
+<div class="textMessage">
+<p> Introduction: These Terms (“Terms”) govern the access to and use of contents and interfaces of Encrypticon Ltd and its affiliates (“Encrypticon”, “we”, “us”, “our”) by all persons and entities (“you”). By accessing or using our contents and interfaces, you acknowledge that you have read these Terms and that you agree to be legally bound by them. &nbsp;</p>
+<p> Disclaimer: Our contents and interfaces do not constitute advice, solicitation, or offer of any kind and are provided "as is" and without warranties or guarantees of any kind. Decisions based on our contents and interfaces are solely your responsibility. The value of investments and assets can change depending on various factors, conditions, and complications. Past performance is no guarantee of future results. &nbsp;</p>
+<p> Intellectual Property: Our contents and interfaces are owned or licensed by us and their respective owners and are protected by applicable intellectual property rights. You may not use, download, copy, print, display, publish, modify, transmit, or distribute our contents and interfaces, especially trademarked and copyrighted items, for any public or commercial reason without our written permission. &nbsp;</p>
+<p> Licensing: We grant you a personal, non-exclusive, non-transferable, non-sublicensable license to access and use our contents and interfaces, solely for lawful purposes and subject to your compliance with these Terms. &nbsp;</p>
+<p> Third Parties: Our contents and interfaces may contain links to contents and interfaces operated by third parties. These links are provided “as is” and we disclaim any and all responsibility relating to your access to and use of contents and interfaces operated by third parties. </p>
+<p> Compliance: Our contents and interfaces are not intended for U.S. citizens, permanent residents, and tax residents. U.S. citizens, permanent residents, and tax residents accessing or using our contents and interfaces do so voluntarily and are responsible for compliance with their local laws. We do not make a public offering of securities. &nbsp;</p>
+<p> Limitations and Prohibitions: As a condition of accessing or using our contents and interfaces, you agree to follow these Terms and all applicable laws, rules, and regulations, and to provide us with only truthful, complete, and accurate information. You acknowledge that your license to our contents and interfaces does not extend to any source code of any kind. &nbsp; </p>
+<p> Indemnity: In exchange for accessing and using our contents and interfaces, you agree to indemnify and hold us harmless against any and all claims, damages, obligations, losses, liabilities, costs, penalties, fees, and expenses arising from your access to and use of our contents and interfaces, even if we have been advised of such possibilities. Your sole remedy if you are dissatisfied with our contents and interfaces is to discontinue using them. </p>
+<p> Errors: Our contents and interfaces may contain errors, omissions, inaccuracies, and deficiencies. We reserve the right to correct such errors, omissions, inaccuracies, and deficiencies at any time without notice. We do not guarantee that any such errors, omissions, inaccuracies, and deficiencies will be corrected. </p>
+<p> Termination: We may restrict or terminate your access to or use of our contents and interfaces at any time for any reason without notice. </p>
+<p> Modifications: We may modify these Terms at any time for any reason without notice, consultation, or approval. We reserve the right to modify our contents and interfaces at any time for any reason without notice, consultation, or approval. Changes are effective immediately. </p>
+<p> Severability: If any provision of these Terms is deemed unlawful, void, or unenforceable, then that provision will be deemed severable from these Terms and will not affect the remaining provisions. </p>
+<p style="padding: 0">
+Encrypticon
+</p>
+</div>
+</div>
+</div>
+<div class="Copyright">
+<p>Copyright © 2019 Encrypticon Ltd. All rights reserved.</p>
+</div>
+</div>
+
+<div class="particlesBackground">
+<div id="particles-js"></div>
+</div>
+<script src="../js/particles.js"></script>
+<script src="../js/app.js"></script>
+
+<script src="../js/same.js"></script>
+<script>
+		 window.onmousewheel = function () {
+        if(window.scrollY>50){
+            document.getElementById("nav").style.display = "none";
+        }else{
+            document.getElementById("nav").style.display = "block";
+        }
+    }
+	</script>
+</body>
+</html>
